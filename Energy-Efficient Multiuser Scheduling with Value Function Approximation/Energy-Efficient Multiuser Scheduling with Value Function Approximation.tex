@@ -1,264 +1,14 @@
-
-%% bare_conf.tex
-%% V1.2
-%% 2002/11/18
-%% by Michael Shell
-%% mshell@ece.gatech.edu
-%%
-%% NOTE: This text file uses MS Windows line feed conventions. When (human)
-%% reading this file on other platforms, you may have to use a text
-%% editor that can handle lines terminated by the MS Windows line feed
-%% characters (0x0D 0x0A).
-%%
-%% This is a skeleton file demonstrating the use of IEEEtran.cls
-%% (requires IEEEtran.cls version 1.6b or later) with an IEEE conference paper.
-%%
-%% Support sites:
-%% http://www.ieee.org
-%% and/or
-%% http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
-%%
-%% This code is offered as-is - no warranty - user assumes all risk.
-%% Free to use, distribute and modify.
-
-% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
-% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
-% *** with production work. IEEE's font choices can trigger bugs that do  ***
-% *** not appear when using other class files.                            ***
-% Testflow can be obtained at:
-% http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/testflow
-
-
-% Note that the a4paper option is mainly intended so that authors in
-% countries using A4 can easily print to A4 and see how their papers will
-% look in print. Authors are encouraged to use U.S. letter paper when
-% submitting to IEEE. Use the testflow package mentioned above to verify
-% correct handling of both paper sizes by the author's LaTeX system.
-%
-% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
-% should be used if it is desired that the figures are to be displayed in
-% draft mode.
-%
-% This paper can be formatted using the peerreviewca
-% (instead of conference) mode.
 \documentclass[conference]{IEEEtran}
-% If the IEEEtran.cls has not been installed into the LaTeX system files,
-% manually specify the path to it:
-% \documentclass[conference]{../sty/IEEEtran}
-
-
-% some very useful LaTeX packages include:
-
-%\usepackage{cite}      % Written by Donald Arseneau
-                        % V1.6 and later of IEEEtran pre-defines the format
-                        % of the cite.sty package \cite{} output to follow
-                        % that of IEEE. Loading the cite package will
-                        % result in citation numbers being automatically
-                        % sorted and properly "ranged". i.e.,
-                        % [1], [9], [2], [7], [5], [6]
-                        % (without using cite.sty)
-                        % will become:
-                        % [1], [2], [5]--[7], [9] (using cite.sty)
-                        % cite.sty's \cite will automatically add leading
-                        % space, if needed. Use cite.sty's noadjust option
-                        % (cite.sty V3.8 and later) if you want to turn this
-                        % off. cite.sty is already installed on most LaTeX
-                        % systems. The latest version can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/contrib/supported/cite/
-
-\usepackage{graphicx,amsmath}  % Written by David Carlisle and Sebastian Rahtz
-                        % Required if you want graphics, photos, etc.
-                        % graphicx.sty is already installed on most LaTeX
-                        % systems. The latest version and documentation can
-                        % be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/required/graphics/
-                        % Another good source of documentation is "Using
-                        % Imported Graphics in LaTeX2e" by Keith Reckdahl
-                        % which can be found as esplatex.ps and epslatex.pdf
-                        % at: http://www.ctan.org/tex-archive/info/
-% NOTE: for dual use with latex and pdflatex, instead load graphicx like:
-%\ifx\pdfoutput\undefined
-%\usepackage{graphicx}
-%\else
-%\usepackage[pdftex]{graphicx}
-%\fi
-
-% However, be warned that pdflatex will require graphics to be in PDF
-% (not EPS) format and will preclude the use of PostScript based LaTeX
-% packages such as psfrag.sty and pstricks.sty. IEEE conferences typically
-% allow PDF graphics (and hence pdfLaTeX). However, IEEE journals do not
-% (yet) allow image formats other than EPS or TIFF. Therefore, authors of
-% journal papers should use traditional LaTeX with EPS graphics.
-%
-% The path(s) to the graphics files can also be declared: e.g.,
-% \graphicspath{{../eps/}{../ps/}}
-% if the graphics files are not located in the same directory as the
-% .tex file. This can be done in each branch of the conditional above
-% (after graphicx is loaded) to handle the EPS and PDF cases separately.
-% In this way, full path information will not have to be specified in
-% each \includegraphics command.
-%
-% Note that, when switching from latex to pdflatex and vice-versa, the new
-% compiler will have to be run twice to clear some warnings.
-
-
-\usepackage{psfrag}    % Written by Craig Barratt, Michael C. Grant,
-                        % and David Carlisle
-                        % This package allows you to substitute LaTeX
-                        % commands for text in imported EPS graphic files.
-                        % In this way, LaTeX symbols can be placed into
-                        % graphics that have been generated by other
-                        % applications. You must use latex->dvips->ps2pdf
-                        % workflow (not direct pdf output from pdflatex) if
-                        % you wish to use this capability because it works
-                        % via some PostScript tricks. Alternatively, the
-                        % graphics could be processed as separate files via
-                        % psfrag and dvips, then converted to PDF for
-                        % inclusion in the main file which uses pdflatex.
-                        % Docs are in "The PSfrag System" by Michael C. Grant
-                        % and David Carlisle. There is also some information
-                        % about using psfrag in "Using Imported Graphics in
-                        % LaTeX2e" by Keith Reckdahl which documents the
-                        % graphicx package (see above). The psfrag package
-                        % and documentation can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/contrib/supported/psfrag/
-
-%\usepackage{subfigure} % Written by Steven Douglas Cochran
-                        % This package makes it easy to put subfigures
-                        % in your figures. i.e., "figure 1a and 1b"
-                        % Docs are in "Using Imported Graphics in LaTeX2e"
-                        % by Keith Reckdahl which also documents the graphicx
-                        % package (see above). subfigure.sty is already
-                        % installed on most LaTeX systems. The latest version
-                        % and documentation can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/contrib/supported/subfigure/
-
-%\usepackage{url}       % Written by Donald Arseneau
-                        % Provides better support for handling and breaking
-                        % URLs. url.sty is already installed on most LaTeX
-                        % systems. The latest version can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/contrib/other/misc/
-                        % Read the url.sty source comments for usage information.
-
-%\usepackage{stfloats}  % Written by Sigitas Tolusis
-                        % Gives LaTeX2e the ability to do double column
-                        % floats at the bottom of the page as well as the top.
-                        % (e.g., "\begin{figure*}[!b]" is not normally
-                        % possible in LaTeX2e). This is an invasive package
-                        % which rewrites many portions of the LaTeX2e output
-                        % routines. It may not work with other packages that
-                        % modify the LaTeX2e output routine and/or with other
-                        % versions of LaTeX. The latest version and
-                        % documentation can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/contrib/supported/sttools/
-                        % Documentation is contained in the stfloats.sty
-                        % comments as well as in the presfull.pdf file.
-                        % Do not use the stfloats baselinefloat ability as
-                        % IEEE does not allow \baselineskip to stretch.
-                        % Authors submitting work to the IEEE should note
-                        % that IEEE rarely uses double column equations and
-                        % that authors should try to avoid such use.
-                        % Do not be tempted to use the cuted.sty or
-                        % midfloat.sty package (by the same author) as IEEE
-                        % does not format its papers in such ways.
-
-%\usepackage{amsmath}   % From the American Mathematical Society
-                        % A popular package that provides many helpful commands
-                        % for dealing with mathematics. Note that the AMSmath
-                        % package sets \interdisplaylinepenalty to 10000 thus
-                        % preventing page breaks from occurring within multiline
-                        % equations. Use:
-%\interdisplaylinepenalty=2500
-                        % after loading amsmath to restore such page breaks
-                        % as IEEEtran.cls normally does. amsmath.sty is already
-                        % installed on most LaTeX systems. The latest version
-                        % and documentation can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math/
-
+\usepackage{graphicx,amsmath}
+\usepackage{psfrag}
 \usepackage{multirow}%使用多栏宏包
-
-% Other popular packages for formatting tables and equations include:
-
-%\usepackage{array}
-% Frank Mittelbach's and David Carlisle's array.sty which improves the
-% LaTeX2e array and tabular environments to provide better appearances and
-% additional user controls. array.sty is already installed on most systems.
-% The latest version and documentation can be obtained at:
-% http://www.ctan.org/tex-archive/macros/latex/required/tools/
-
-% Mark Wooding's extremely powerful MDW tools, especially mdwmath.sty and
-% mdwtab.sty which are used to format equations and tables, respectively.
-% The MDWtools set is already installed on most LaTeX systems. The lastest
-% version and documentation is available at:
-% http://www.ctan.org/tex-archive/macros/latex/contrib/supported/mdwtools/
-
-
-% V1.6 of IEEEtran contains the IEEEeqnarray family of commands that can
-% be used to generate multiline equations as well as matrices, tables, etc.
-
-
-% Also of notable interest:
-
-% Scott Pakin's eqparbox package for creating (automatically sized) equal
-% width boxes. Available:
-% http://www.ctan.org/tex-archive/macros/latex/contrib/supported/eqparbox/
-
-
-
-% Notes on hyperref:
-% IEEEtran.cls attempts to be compliant with the hyperref package, written
-% by Heiko Oberdiek and Sebastian Rahtz, which provides hyperlinks within
-% a document as well as an index for PDF files (produced via pdflatex).
-% However, it is a tad difficult to properly interface LaTeX classes and
-% packages with this (necessarily) complex and invasive package. It is
-% recommended that hyperref not be used for work that is to be submitted
-% to the IEEE. Users who wish to use hyperref *must* ensure that their
-% hyperref version is 6.72u or later *and* IEEEtran.cls is version 1.6b
-% or later. The latest version of hyperref can be obtained at:
-%
-% http://www.ctan.org/tex-archive/macros/latex/contrib/supported/hyperref/
-%
-% Also, be aware that cite.sty (as of version 3.9, 11/2001) and hyperref.sty
-% (as of version 6.72t, 2002/07/25) do not work optimally together.
-% To mediate the differences between these two packages, IEEEtran.cls, as
-% of v1.6b, predefines a command that fools hyperref into thinking that
-% the natbib package is being used - causing it not to modify the existing
-% citation commands, and allowing cite.sty to operate as normal. However,
-% as a result, citation numbers will not be hyperlinked. Another side effect
-% of this approach is that the natbib.sty package will not properly load
-% under IEEEtran.cls. However, current versions of natbib are not capable
-% of compressing and sorting citation numbers in IEEE's style - so this
-% should not be an issue. If, for some strange reason, the user wants to
-% load natbib.sty under IEEEtran.cls, the following code must be placed
-% before natbib.sty can be loaded:
-%
-% \makeatletter
-% \let\NAT@parse\undefined
-% \makeatother
-%
-% Hyperref should be loaded differently depending on whether pdflatex
-% or traditional latex is being used:
-%
-%\ifx\pdfoutput\undefined
-%\usepackage[hypertex]{hyperref}
-%\else
-%\usepackage[pdftex,hypertexnames=false]{hyperref}
-%\fi
-%
-% Pdflatex produces superior hyperref results and is the recommended
-% compiler for such use.
-
-
-
-% *** Do not adjust lengths that control margins, column widths, etc. ***
-% *** Do not use packages that alter fonts (such as pslatex).         ***
-% There should be no need to do such things with IEEEtran.cls V1.6 and later.
-
-
-% correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor IEEEtran}
 
 
+\IEEEoverridecommandlockouts
+\usepackage{color}
+\usepackage{geometry}
+\geometry{a4paper,top=2.5cm,bottom=3.5cm,left=1.3cm,right=1.3cm}
 \begin{document}
 
 % paper title
@@ -268,43 +18,18 @@
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\authorblockN{Kai Bi, Qinghai Yang, Fenglin Fu \thanks{*This research was supported in part by the RCUK for the UK-China Science Bridges Project: R\&D on (B)4G wireless mobile communications, by the National Research Foundation of Korea (No. 2011-0016505), NSF of China (61001127, 60832001)}}
-\authorblockA{State Key Laboratory on ISN, School of Telecomm.\\ Engineering, Xidian University, No.2 Taibainan-lu,\\ Xi'an,
-710071, Shaanxi, China. \\
+\author{\authorblockN{Kai Bi, Qinghai Yang, FengLin Fu \thanks{*This research was supported in part by the RCUK for the UK-China Science Bridges Project: R\&D on (B)4G wireless mobile communications, by the National Research Foundation of Korea (No. 2010-0018116), NSF of China (61001127, 60832001)}}
+\authorblockA{State Key Laboratory of ISN, \\School of Telecomm. Engineering, \\Xidian University, No.2 Taibainan-lu,\\ Xi'an,
+710071,
+Shaanxi,China. \\
 Email:qhyang@xidian.edu.cn} \and
 \authorblockN{Kyung Sup Kwak}
-\authorblockA{Graduate School of IT and Telecomm., \\Inha
-University, {\#}253 Yonghyun-dong,\\ Nam-gu, Incheon, 402-751,
+\authorblockA{Graduate School of IT \\and Telecomm., Inha
+University, \\{\#}253 Yonghyun-dong, Nam-gu,\\ Incheon, 402-751,
 Korea. \\Email: kskwak@inha.ac.kr}%\thanks{ddd}
+
 }
 
-% avoiding spaces at the end of the author lines is not a problem with
-% conference papers because we don't use \thanks or \IEEEmembership
-
-
-% for over three affiliations, or if they all won't fit within the width
-% of the page, use this alternative format:
-%
-%\author{\authorblockN{Michael Shell\authorrefmark{1},
-%Homer Simpson\authorrefmark{2},
-%James Kirk\authorrefmark{3},
-%Montgomery Scott\authorrefmark{3} and
-%Eldon Tyrell\authorrefmark{4}}
-%\authorblockA{\authorrefmark{1}School of Electrical and Computer Engineering\\
-%Georgia Institute of Technology,
-%Atlanta, Georgia 30332--0250\\ Email: mshell@ece.gatech.edu}
-%\authorblockA{\authorrefmark{2}Twentieth Century Fox, Springfield, USA\\
-%Email: homer@thesimpsons.com}
-%\authorblockA{\authorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
-%Telephone: (800) 555--1212, Fax: (888) 555--1212}
-%\authorblockA{\authorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
-
-
-
-% use only for invited papers
-%\specialpapernotice{(Invited Paper)}
-
-% make the title area
 \maketitle
 
 \begin{abstract}
@@ -330,11 +55,11 @@ Energy-efficient, resource allocation, constrained Markov decision process, stoc
 
 \section{Introduction}
 % no \PARstart
-With the rapid development of wireless systems in terms of the number of subscribers and applications, two key design challenges lie in the power-efficient transmission of portable handsets, as well as the delay-sensitive multimedia transmission applications such as video conference, remote teaching/training, etc. Both of the two challenges require highly efficient scheduling and resource allocation schemes.
+With the rapid development of wireless systems in terms of the number of subscribers and applications, two key design challenges lie in the power-efficient transmission of portable handsets, as well as the delay-sensitive multimedia transmission applications such as video conference, remote teaching/training, etc. Both of these two challenges require highly efficient scheduling and resource allocation schemes.
 
-Many efforts have been made on the cross-layer optimization of power and subcarrier allocation for orthogonal frequency division multiple access (OFDMA) systems. The traditional view of considering the energy-efficient and delay-sensitive application was to treat the wireless system as a layered network \cite{1}. In the single user scenario, the pioneer work of \cite{2} investigated the energy efficient delay-constraint cross-layer scheduling scheme under the channel variation and buffer dynamics. Following the model of Berry-Gallager, the energy efficient transmission was investigated under the average delay constraint in the constrained Markov decision process (CMDP) framework [3-5]. Literature \cite{5} analyzed the structural properties of optimal transmission policies over a randomly varying channel.  A stable online algorithm was developed in \cite{6}, which is interpreted as \lq\lq one component at a time\rq\rq, via introducing a middle state called post-decision state. The work of \cite{7} extended the model in \cite{6} to a single-cell multiuser wireless uplink system and provided the convergence analysis and queue stability proof.
+Many efforts have been made on the cross-layer optimization of power and subcarrier allocation for orthogonal frequency division multiple access (OFDMA) systems. The traditional view of considering the energy-efficient and delay-sensitive applications were to treat the wireless system as a layered network \cite{1}. In the single user scenario, the pioneer work of \cite{2} investigated the energy efficient delay-constraint cross-layer scheduling scheme under the channel variation and buffer dynamics. Following the model of Berry-Gallager, the energy efficient transmission was investigated under the average delay constraint in the constrained Markov decision process (CMDP) framework [3-5]. Literature \cite{5} analyzed the structural properties of optimal transmission policies over a randomly varying channel. A stable online algorithm was developed in \cite{6}, which was interpreted as \lq\lq one component at a time\rq\rq, via introducing a middle state called post-decision state. The work of \cite{7} extended the model in \cite{6} to a single-cell multiuser wireless uplink system and provided the convergence analysis and queue stability proof.
 	
-In this paper, we investigate an energy-efficient resource allocation with value function approximation under average delay constraint. It proves that the post-decision value function for the problem of the energy efficient scheduling under average delay constraint is convex on the backlog at the BS. And the post-decision value function is approximated using the piecewise linear function to attain quick convergence.
+In this paper, we investigate an energy-efficient resource allocation with value function approximation under average delay constraint. It proves that the post-decision value function for the problem of the energy efficient scheduling under average delay constraint is convex on the backlog at BS. And the post-decision value function is approximated using the piecewise linear function to attain quick convergence.
 
 \begin{figure}
 \centering
@@ -346,9 +71,9 @@ In this paper, we investigate an energy-efficient resource allocation with value
 \subsection{System Model}
 We consider an OFDMA downlink system with $M$ users, $N_F$ subcarriers, and one base station (BS), as depicted in Fig. 1. BS manages $M$ queues, which are associated with $M$ users, respectively. In a non-homogenous user scenario, different application streams may have different arrival rates, and delay requirements. The subcarrier and power allocation is performed with respect to the effects of both channel state information (CSI) and queue state information (QSI).
 
-We assume the channel is time-varying but keeps constraint over the interested time interval. We use a finite-state Markov model to describe the fading channel. The corresponding one-step transition probability is computed by the method in \cite{9}.
+We assume the channel is time-varying but keeps constant over the interested time interval. We use a finite-state Markov model to describe the fading channel. The corresponding one-step transition probability is computed by the method in \cite{9}.
 
-We assume that, the packets from higher layers arrive at the end of each slot and their arrivals of the packets are independently identically distributed (i.i.d). The packet arrival process and the channel state evolution process are assumed to be stationary and independent. The packets of different users are stored in the corresponding queues at BS for transmission, respectively. We denote $q_i^{t} $ and $U_i^t $ as the queue length in the buffer of user $i$ and the number of transmitted packets at time slot $t$. If the number of data arrivals is $A_{i}^{t+1}$, the queue length at the next time slot can be expressed as:
+We assume that, the packets from higher layers arrive at the end of each slot and their arrivals of the packets are independently identically distributed (i.i.d). The packet arrival process and the channel state evolution process are assumed to be stationary and independent. The packets of different users are stored in the corresponding queues at BS for transmission. We denote $q_i^{t} $ and $U_i^t $ as the queue length in the buffer of user $i$ and the number of transmitted packets at time slot $t$. If the number of data arrivals is $A_{i}^{t+1}$, the queue length at the next time slot can be expressed as:
 
 \begin{equation}
 \label{eq1} q_{i}^{t+1} =q_i^{t} -U_i^{t} +A_{i}^{t+1}.
@@ -357,7 +82,7 @@ We assume that, the packets from higher layers arrive at the end of each slot an
 Supposing the buffer size is $N_Q$ in a practical system, the queue length at time $t+1$ is $q_{i}^{t+1} =\min (q_i^{t} -U_i^{t} +A_{i}^{t+1} ,N_Q)$. If $N_Q$ is large enough, the buffer overflow can be neglected. Next, let denote $\bar {q}$ and $\bar {D}$ as the average queue length and average delay, respectively. According to Little's Theorem, it holds $\bar {q}=\bar {a}\bar {D}$ where $\bar {a}$ is a parameter. That is, the delay constraint of each user can be mapped to that of the queue length.
 
 \subsection{State Definition}
-The cardinality of the set of QSI is $L=(N_Q+1)^M$, which grows exponentially with $M$. Denote the system state as: $s^t =\left({s_1^{t}, s_2^{t}, \cdots, s_L^{t} } \right)$ with $s_i^{t} =\left( {q_i^{t} ,h_i^{t} } \right)$, where $h_i^{t} $ represents the channel gain of user $i$ at time slot $t$. The joint allocation scheduling policy of $M$ queues is stated as $\pi^t =({\pi_{1,1}^{t}, \pi_{1,2}^{t}, \cdots, \pi_{1,N_F}^{t}};\cdots;{\pi_{i,1}^{t}, \pi_{i,2}^{t}, \cdots, \pi_{i,N_F}^{t}};\cdots;{\pi_{M,1}^{t},} \\{\pi_{M,2}^{t}, \cdots, \pi_{M,N_F}^{t}})$. $\pi _{i,n}^{t} $ is an indicator that indicates whether queue $i$ gets the $n$-th subcarrier at time slot $t$. $\pi_{i,n}^{t} =1$ means queue $i$ gets the $n$-th subcarrier at current time slot, and $\pi_{i,n}^{t} =0$ represents waiting for transmission in the next slot. The queue length in the next time slot is affected by the current queue length and the number of packets to be transmitted. We assume the channel state acts as an ergodic Markov chain and inevitably transits into another state at the next time slot. Thus, it can be formulated as a (CMDP) problem.
+The cardinality of the set QSI is $L=(N_Q+1)^M$, which grows exponentially with $M$. Denote the system state as: $s^t =\left({s_1^{t}, s_2^{t}, \cdots, s_L^{t} } \right)$ with $s_i^{t} =\left( {q_i^{t} ,h_i^{t} } \right)$, where $h_i^{t} $ represents the channel gain of user $i$ at time slot $t$. The joint allocation scheduling policy of $M$ queues is stated as $\pi^t =({\pi_{1,1}^{t}, \pi_{1,2}^{t}, \cdots, \pi_{1,N_F}^{t}};\cdots;{\pi_{i,1}^{t}, \pi_{i,2}^{t}, \cdots, \pi_{i,N_F}^{t}};\cdots;{\pi_{M,1}^{t},} \\{\pi_{M,2}^{t}, \cdots, \pi_{M,N_F}^{t}})$. $\pi _{i,n}^{t} $ is an indicator that indicates whether queue $i$ gets the $n$-th subcarrier at time slot $t$. $\pi_{i,n}^{t} =1$ means queue $i$ gets the $n$-th subcarrier at current time slot, and $\pi_{i,n}^{t} =0$ represents waiting for transmission in the next slot. The queue length in the next time slot is affected by the current queue length and the number of packets to be transmitted. We assume the channel state acts as an ergodic Markov chain and inevitably transits into another state at the next time slot. Thus, it can be formulated as a CMDP problem.
 
 \makeatletter
 \newcommand{\Extend}[5]{\ext@arrow 0099{\arrowfill@#1#2#3}{#4}{#5}}
@@ -386,7 +111,7 @@ Given the defined the system state $s_i^{t} =\left( {q_i^{t} ,h_i^{t} } \right)$
 \begin{equation}
 \label{eq3} { \sum\limits_{i=1}^{M}\sum\limits_{n=1}^{N_F}{E[P_{i,n}]}\leq P_0 , ~~~ P_{i,n}\ge 0,  }
 \end{equation}
-where $P_0$ denotes the maximum power that allowed to transmit packets at BS.
+where $P_0$ denotes the maximum power that allowed at BS.
 
 The subcarrier allocation should satisfy the constraint:
 \begin{equation}
@@ -410,13 +135,13 @@ Accordingly, the problem may be formulated as:
 \label{eq5}
 \begin{array}{l}
  \min \mbox{ } {P}_i\\
-  \mbox{s. t. }\enspace {Q}_i \le \zeta_i,\enspace i=1,\cdots ,M. \end{array}
+  \mbox{s. t. }\enspace {Q}_i \le \zeta_i,\enspace i=1,\cdots ,M \end{array}
 \end{equation}
 where $ \zeta _i$ denotes the maximum delay that the $i$-th user could tolerate.
 
 \section{Allocation Policy}
 
-The resource allocation controller computes which queue will be allocated one or more subcarriers for transmission based on CSI at each time slot. The allocation decision in a time slot affects the buffer occupancy of all the queues in future slots, in other words, the average delay of everybody. At each time slot, the controller calculates the transmission rate based on QSI and power expenditure for each queue online based on multiple traffic's delay  constraint. The rate for each queue is denoted as $y_i^{t} $. Combining this rate with CSI at current slot, we can compute the corresponding power expenditure $P_i^{t}$. In this way, the controller analyzes all the informations and finally makes the allocation decision. In the next time slot, the controller remake the allocation decision based on the decision made at the last time slot as well as the new CSI and QSI.
+The resource allocation controller computes which queue will be allocated one or more subcarriers for transmission based on CSI at each time slot. The allocation decision in a time slot affects the buffer occupancy of all the queues in future slots, in other words, the average delay of everybody. At each time slot, the controller calculates the transmission rate based on QSI and power expenditure for each queue online based on multiple traffic's delay  constraints. The rate for each queue is denoted as $y_i^{t} $. Combining this rate with CSI at current slot, we can compute the corresponding power expenditure $P_i^{t}$. In this way, the controller analyzes all information and finally makes the allocation decision. In the next time slot, the controller remake the allocation decision based on the decision made at the last time slot as well as both the new CSI and QSI.
 
 \section{Online Learning with Value Function Approximation}
 \subsection{Lagrangian Approach}
@@ -725,10 +450,10 @@ average channel gain. In the simulation, we assume there are 2 users, 4 subcarri
 \label{fig7}\caption{Average power allocation versus delay.}
 \end{figure}
 
-Fig. 2 depicts the trend of the norm of the post-decision state value function's different between two adjacent generations. As expected, it has a downward trend and an excellent allocation policy will be found if $\delta_v$ sets appropriated. Fig. 3 illustrates the average number of subcarriers varying with regenerations periods of the two users. Fig. 4 and Fig. 5 demonstrate the power expenditure and average delay cost varying with regenerations periods. In Fig. 4, the average power allocation has the similar trend with the norm of the post-decision state value function's different that showed in Fig. 2. In Fig. 5, as the power allocation decreases, the average queue delay becomes higher. As the iteration number increases, we observe that the average power expenditure converges to a nearly fixed level. Fig. 6 illustrates the average power allocation versus delay with the regenerative periods. It verifies that the algorithm presents a significant energy reduction within average delay constraints. In practical applications, it is unnecessary to wait the algorithm to reach the convergence. Once the delay cost and the power expenditure fall in an acceptable region, it is reasonable to terminate the algorithm. It's not hard to find a sensational resource allocation scheme with low power requirement and non-homogenous delay constraint. Simulation results demonstrate that the algorithm converges to the optimal solution after the acceptable iterations almost surely.
+Fig. 2 depicts the trend of the norm of the post-decision state value function's different between two adjacent generations. As expected, it has a downward trend and an excellent allocation policy will be found if $\delta_v$ sets appropriated. Fig. 3 illustrates the average number of subcarriers varying with regenerations periods of the two users. Fig. 4 and Fig. 5 demonstrate the power expenditure and average delay cost varying with regenerations periods. In Fig. 4, the average power allocation has the similar trend with the norm of the post-decision state value function's difference that showed in Fig. 2. In Fig. 5, as the power allocation decreases, the average queue delay becomes higher. As the iteration number increases, we observe that the average power expenditure converges to a nearly fixed level. Fig. 6 illustrates the average power allocation versus delay with the regenerative periods. It verifies that the algorithm presents a significant energy reduction within average delay constraints. In practical applications, it is unnecessary to wait the algorithm to reach the convergence. Once the delay cost and the power expenditure fall in an acceptable region, it is reasonable to terminate the algorithm. It's not hard to find a feasible resource allocation scheme with low power requirement and non-homogenous delay constraint. Simulation results demonstrate that the algorithm converges to the optimal solution after the acceptable iterations almost surely.
 
 \section{Conclusions}
-In this paper, we conceive an energy-efficient power and subcarrier allocation scheme for downlink OFDMA systems under average delay constraints. The problem of dynamic power and subcarrier allocation is formulated as a constrained Markov decision process (CMDP) with the control actions based on CSI and QSI. We prove that the post-decision value function for the problem of the energy efficient scheduling under average delay constraint is convex on the backlog. We derive the equivalent state-reduced Bellman equation and propose an online stochastic value iteration solution to accelerate the algorithm convergence speed.
+In this paper, we conceive an energy-efficient power and subcarrier allocation scheme for downlink OFDMA systems under average delay constraints. The problem of dynamic power and subcarrier allocation is formulated as a CMDP with the control actions based on both CSI and QSI. We prove that the post-decision value function for the problem of the energy efficient scheduling under average delay constraint is convex on the backlog. We derive the equivalent state-reduced Bellman equation and propose an online stochastic value iteration solution to accelerate the algorithm convergence.
 
 \bigskip
 

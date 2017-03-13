@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2012.7.14)  14 SEP 2012 22:38
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2012.7.14)  15 SEP 2012 11:46
 entering extended mode
 **Energy-Efficient*Multiuser*Scheduling*with*Value*Function*Approximation.tex
 
-("D:\科研\mypaper\2012.8.2Energy-Efficient Multiuser Scheduling with Value Func
-tion Approximation\Energy-Efficient Multiuser Scheduling with Value Function Ap
-proximation.tex"
+("D:\科研\mypaper\bikai2012.9.14\Energy-Efficient Multiuser Scheduling with Val
+ue Function Approximation.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
@@ -183,9 +182,41 @@ Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 (D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
 \bigstrutjot=\dimen128
 )
-("D:\科研\mypaper\2012.8.2Energy-Efficient Multiuser Scheduling with Value Func
-tion Approximation\Energy-Efficient Multiuser Scheduling with Value Function Ap
-proximation.aux"
+** ATTENTION: Overriding command lockouts (line 8).
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@dimlist=\toks21
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg))
+("D:\科研\mypaper\bikai2012.9.14\Energy-Efficient Multiuser Scheduling with Val
+ue Function Approximation.aux"
 
 LaTeX Warning: Label `eq3' multiply defined.
 
@@ -193,126 +224,137 @@ LaTeX Warning: Label `eq3' multiply defined.
 LaTeX Warning: Label `eq4' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
-** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
-tead.
-** WARNING: \thanks is locked out when in conference mode (line 308).
-** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
-tead.
-** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
-tead.
-** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
-tead.
-** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
-tead.
-** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
-tead.
-** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
-tead.
-** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
-tead.
-** ATTENTION: \keywords is deprecated (line 317). Use \IEEEkeywords instead.
-
-Underfull \hbox (badness 4713) in paragraph at lines 317--319
-[][]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Energy-efficient, re-source al
--lo-ca-tion, con-
- []
-
+*geometry auto-detecting driver*
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: true
+twoside: --
+asymmetric: --
+h-parts: 36.98866pt, 523.53055pt, 36.98866pt
+v-parts: 71.13188pt, 674.33032pt, 99.58464pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  523.53055pt
+\textheight 674.33032pt
+\oddsidemargin  -35.28133pt
+\evensidemargin -35.28133pt
+\topmargin  -31.2056pt
+\headheight 12.0pt
+\headsep    18.06749pt
+\footskip   28.90755pt
+\marginparwidth 20.0pt
+\marginparsep   10.0pt
+\columnsep  12.0pt
+\skip\footins  10.79993pt plus 4.79993pt minus 2.39996pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twocolumntrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+** ATTENTION: \authorblockN is deprecated (line 33). Use \IEEEauthorblockN inst
+ead.
+** ATTENTION: \authorblockA is deprecated (line 33). Use \IEEEauthorblockA inst
+ead.
+** ATTENTION: \authorblockN is deprecated (line 33). Use \IEEEauthorblockN inst
+ead.
+** ATTENTION: \authorblockA is deprecated (line 33). Use \IEEEauthorblockA inst
+ead.
+** ATTENTION: \authorblockN is deprecated (line 33). Use \IEEEauthorblockN inst
+ead.
+** ATTENTION: \authorblockA is deprecated (line 33). Use \IEEEauthorblockA inst
+ead.
+** ATTENTION: \authorblockN is deprecated (line 33). Use \IEEEauthorblockN inst
+ead.
+** ATTENTION: \authorblockA is deprecated (line 33). Use \IEEEauthorblockA inst
+ead.
+** ATTENTION: \keywords is deprecated (line 42). Use \IEEEkeywords instead.
 File: fig1.eps Graphic file (type eps)
 <fig1.eps> [1
 
 
 ] [2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 498.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 223.
 
 
 (D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-** ATTENTION: \proof is deprecated (line 512). Use \IEEEproof instead.
+** ATTENTION: \proof is deprecated (line 237). Use \IEEEproof instead.
 [3]
-Overfull \hbox (4.75465pt too wide) detected at line 543
+Overfull \hbox (0.98938pt too wide) detected at line 268
 []
  []
 
 
-Overfull \hbox (2.08879pt too wide) detected at line 550
+Underfull \hbox (badness 1383) in paragraph at lines 277--280
+[][]\OT1/ptm/m/n/10 Obviously, $[] \OMS/cmsy/m/n/10   [] \OT1/cmr/m/n/10 = 0$\O
+T1/ptm/m/n/10 . Thus, we ver-i-fied that
+ []
+
+
+Overfull \hbox (8.86661pt too wide) detected at line 292
 []
  []
 
 
-Overfull \hbox (12.63188pt too wide) detected at line 567
+Overfull \hbox (5.61192pt too wide) detected at line 335
 []
  []
 
 
-Overfull \hbox (9.3772pt too wide) detected at line 610
-[]
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 612--618
+Underfull \hbox (badness 2057) in paragraph at lines 337--343
 \OML/cmm/m/it/10 N[] []$ \OT1/ptm/m/n/10 is con-vex on $\OML/cmm/m/it/10 q$\OT1
 /ptm/m/n/10 . Mean-while, $\OML/cmm/m/it/10 V[] [] \OT1/cmr/m/n/10 =
  []
 
 [4]
-Underfull \hbox (badness 2197) in paragraph at lines 653--657
+Underfull \hbox (badness 3168) in paragraph at lines 378--382
 []\OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q;
  h[]\OT1/cmr/m/n/10 ) = [][]\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  h[]; y\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 
 (\OML/cmm/m/it/10 q; y\OT1/cmr/m/n/10 ) +
  []
 
-
-Underfull \hbox (badness 2042) in paragraph at lines 659--660
-\OT1/ptm/m/n/10 on the cur-rent nor-mal state $\OML/cmm/m/it/10 s[] \OT1/cmr/m/
-n/10 = ([](\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 +
- []
-
 File: fig3.eps Graphic file (type eps)
 <fig3.eps>
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 695--697
- [][][] 
- []
-
 File: fig5.eps Graphic file (type eps)
-<fig5.eps>
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 702--704
- [][][] 
- []
-
+ <fig5.eps>
 File: fig4.eps Graphic file (type eps)
-<fig4.eps>
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 709--711
- [][][] 
- []
-
+ <fig4.eps>
 File: fig6.eps Graphic file (type eps)
-<fig6.eps>
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 716--718
- [][][] 
- []
-
+ <fig6.eps>
 File: fig7.eps Graphic file (type eps)
-<fig7.eps>
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 723--725
- [][][] 
- []
+ <fig7.eps>
+Underfull \vbox (badness 1231) has occurred while \output is active []
 
-[5]
+ [5]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -325,21 +367,20 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 [6]
-("D:\科研\mypaper\2012.8.2Energy-Efficient Multiuser Scheduling with Value Func
-tion Approximation\Energy-Efficient Multiuser Scheduling with Value Function Ap
-proximation.aux")
+("D:\科研\mypaper\bikai2012.9.14\Energy-Efficient Multiuser Scheduling with Val
+ue Function Approximation.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1967 strings out of 495286
- 29952 string characters out of 3179474
- 92616 words of memory out of 3000000
- 5181 multiletter control sequences out of 15000+200000
+ 2540 strings out of 495286
+ 38578 string characters out of 3179474
+ 102977 words of memory out of 3000000
+ 5734 multiletter control sequences out of 15000+200000
  28299 words of font info for 66 fonts, out of 3000000 for 9000
  18 hyphenation exceptions out of 8191
- 27i,19n,20p,1578b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,19n,20p,1576b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on "Energy-Efficient Multiuser Scheduling with Value Function Ap
-proximation.dvi" (6 pages, 61544 bytes).
+proximation.dvi" (6 pages, 57360 bytes).
