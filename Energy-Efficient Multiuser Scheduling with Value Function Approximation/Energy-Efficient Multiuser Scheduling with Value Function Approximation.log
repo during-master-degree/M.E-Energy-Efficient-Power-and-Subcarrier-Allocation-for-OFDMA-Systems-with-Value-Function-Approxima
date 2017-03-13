@@ -1,0 +1,345 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2012.7.14)  14 SEP 2012 22:38
+entering extended mode
+**Energy-Efficient*Multiuser*Scheduling*with*Value*Function*Approximation.tex
+
+("D:\科研\mypaper\2012.8.2Energy-Efficient Multiuser Scheduling with Value Func
+tion Approximation\Energy-Efficient Multiuser Scheduling with Value Function Ap
+proximation.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using DVI output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) (D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen119
+))
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\psfrag\psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count103
+\pfg@scount=\count104
+\pfg@temp=\write3
+)
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen128
+)
+("D:\科研\mypaper\2012.8.2Energy-Efficient Multiuser Scheduling with Value Func
+tion Approximation\Energy-Efficient Multiuser Scheduling with Value Function Ap
+proximation.aux"
+
+LaTeX Warning: Label `eq3' multiply defined.
+
+
+LaTeX Warning: Label `eq4' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+
+** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
+tead.
+** WARNING: \thanks is locked out when in conference mode (line 308).
+** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
+tead.
+** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
+tead.
+** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
+tead.
+** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
+tead.
+** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
+tead.
+** ATTENTION: \authorblockN is deprecated (line 308). Use \IEEEauthorblockN ins
+tead.
+** ATTENTION: \authorblockA is deprecated (line 308). Use \IEEEauthorblockA ins
+tead.
+** ATTENTION: \keywords is deprecated (line 317). Use \IEEEkeywords instead.
+
+Underfull \hbox (badness 4713) in paragraph at lines 317--319
+[][]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Energy-efficient, re-source al
+-lo-ca-tion, con-
+ []
+
+File: fig1.eps Graphic file (type eps)
+<fig1.eps> [1
+
+
+] [2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 498.
+
+
+(D:\software\LaTeX\anzhuang\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+** ATTENTION: \proof is deprecated (line 512). Use \IEEEproof instead.
+[3]
+Overfull \hbox (4.75465pt too wide) detected at line 543
+[]
+ []
+
+
+Overfull \hbox (2.08879pt too wide) detected at line 550
+[]
+ []
+
+
+Overfull \hbox (12.63188pt too wide) detected at line 567
+[]
+ []
+
+
+Overfull \hbox (9.3772pt too wide) detected at line 610
+[]
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 612--618
+\OML/cmm/m/it/10 N[] []$ \OT1/ptm/m/n/10 is con-vex on $\OML/cmm/m/it/10 q$\OT1
+/ptm/m/n/10 . Mean-while, $\OML/cmm/m/it/10 V[] [] \OT1/cmr/m/n/10 =
+ []
+
+[4]
+Underfull \hbox (badness 2197) in paragraph at lines 653--657
+[]\OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q;
+ h[]\OT1/cmr/m/n/10 ) = [][]\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ h[]; y\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 q; y\OT1/cmr/m/n/10 ) +
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 659--660
+\OT1/ptm/m/n/10 on the cur-rent nor-mal state $\OML/cmm/m/it/10 s[] \OT1/cmr/m/
+n/10 = ([](\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 +
+ []
+
+File: fig3.eps Graphic file (type eps)
+<fig3.eps>
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 695--697
+ [][][] 
+ []
+
+File: fig5.eps Graphic file (type eps)
+<fig5.eps>
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 702--704
+ [][][] 
+ []
+
+File: fig4.eps Graphic file (type eps)
+<fig4.eps>
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 709--711
+ [][][] 
+ []
+
+File: fig6.eps Graphic file (type eps)
+<fig6.eps>
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 716--718
+ [][][] 
+ []
+
+File: fig7.eps Graphic file (type eps)
+<fig7.eps>
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 723--725
+ [][][] 
+ []
+
+[5]
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[6]
+("D:\科研\mypaper\2012.8.2Energy-Efficient Multiuser Scheduling with Value Func
+tion Approximation\Energy-Efficient Multiuser Scheduling with Value Function Ap
+proximation.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1967 strings out of 495286
+ 29952 string characters out of 3179474
+ 92616 words of memory out of 3000000
+ 5181 multiletter control sequences out of 15000+200000
+ 28299 words of font info for 66 fonts, out of 3000000 for 9000
+ 18 hyphenation exceptions out of 8191
+ 27i,19n,20p,1578b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on "Energy-Efficient Multiuser Scheduling with Value Function Ap
+proximation.dvi" (6 pages, 61544 bytes).

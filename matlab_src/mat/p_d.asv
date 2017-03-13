@@ -1,0 +1,25 @@
+counter=1:200;
+            aa=power_11(1:200);            
+            bb=Q_11(1:200);
+            bb=fliplr(bb);
+            
+            p1=polyfit(counter,aa,3);
+            s1=polyval(p1,counter);
+%            figure(1);
+%            plot(counter,s1,'b'); 
+ %           [a1 index]=sort(bb);
+            
+ %           for i=1:length(bb)
+ %              b1(i)=aa(index(i));
+ %           end
+            p2=polyfit(counter,bb,3);
+            s2=polyval(p2,counter);
+ %           figure(2);
+ %           plot(counter,s2,'r');   
+            figure(3);   
+            s2()
+            plot(s3,s1);
+%            plot(s2,s1);
+            xlabel('Average delay');
+            ylabel('Power allocation (mW)');
+            
